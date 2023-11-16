@@ -1,0 +1,88 @@
+.primary-button {
+  all: unset;
+  align-items: center;
+  border-radius: 8px;
+  box-sizing: border-box;
+  display: inline-flex;
+  gap: 8px;
+  height: 40px;
+  justify-content: center;
+  padding: 12px 20px;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.primary-button .label {
+  font-family: "Poppins", Helvetica;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-bottom: -3px;
+  margin-top: -5px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.primary-button .icon {
+  height: 20px !important;
+  margin-bottom: -2px !important;
+  margin-top: -2px !important;
+  position: relative !important;
+  width: 20px !important;
+}
+
+.primary-button.secondary {
+  background-color: var(--white-color);
+  border: 1px solid;
+}
+
+.primary-button.default.secondary {
+  border-color: var(--primary-color);
+}
+
+.primary-button.hover.primary {
+  background-color: var(--secondary-color);
+}
+
+.primary-button.disabled.primary {
+  background-color: var(--grey-1-color);
+}
+
+.primary-button.hover.secondary {
+  border-color: var(--secondary-color);
+}
+
+.primary-button.default.primary {
+  background-color: var(--primary-color);
+}
+
+.primary-button.disabled.secondary {
+  border-color: var(--grey-1-color);
+}
+
+.primary-button.default.secondary .label {
+  color: var(--primary-color);
+}
+
+.primary-button.hover.primary .label {
+  color: var(--white-color);
+}
+
+.primary-button.disabled.primary .label {
+  color: var(--grey-2-color);
+}
+
+.primary-button.hover.secondary .label {
+  color: var(--secondary-color);
+}
+
+.primary-button.default.primary .label {
+  color: var(--white-color);
+}
+
+.primary-button.disabled.secondary .label {
+  color: var(--grey-1-color);
+}

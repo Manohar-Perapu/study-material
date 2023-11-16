@@ -1,0 +1,1 @@
+export { NamePhone } from "./NamePhone";

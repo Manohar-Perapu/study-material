@@ -1,0 +1,34 @@
+.home-wrapper {
+  align-items: center;
+  display: inline-flex;
+  gap: 2px;
+  justify-content: center;
+  position: relative;
+}
+
+.home-wrapper .frame-3 {
+  height: 25.04px;
+  margin-bottom: -0.54px;
+  margin-left: -0.5px;
+  margin-top: -0.5px;
+  position: relative;
+  width: 25px;
+}
+
+.home-wrapper .chevron-right {
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.home-wrapper .text-wrapper-3 {
+  color: #8f4545;
+  font-family: "Rubik", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}

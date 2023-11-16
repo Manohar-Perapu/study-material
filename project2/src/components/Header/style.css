@@ -1,0 +1,76 @@
+.header {
+  align-items: center;
+  display: flex;
+  gap: 64px;
+  justify-content: center;
+  position: relative;
+  width: 744px;
+}
+
+.header .frame {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  gap: 10px;
+  position: relative;
+}
+
+.header .gayatri-vidya {
+  height: 40px;
+  object-fit: cover;
+  position: relative;
+  width: 40px;
+}
+
+.header .link-upper-sec-wrapper {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  width: 286.12px;
+}
+
+.header .link-upper-sec {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  justify-content: center;
+  position: relative;
+}
+
+.header .div {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 4px;
+  justify-content: center;
+  padding: 8px;
+  position: relative;
+}
+
+.header .text-wrapper {
+  color: #000000;
+  font-family: "Rubik", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.header .vector {
+  height: 6.01px;
+  position: relative;
+  width: 10.01px;
+}
+
+.header .home-instance {
+  flex: 0 0 auto !important;
+  height: 28px !important;
+  position: relative !important;
+}

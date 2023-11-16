@@ -1,0 +1,1 @@
+export { CollegeImage } from "./CollegeImage";

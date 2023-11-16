@@ -1,0 +1,15 @@
+.college-image {
+  background-color: #000000;
+  height: 342px;
+  position: relative;
+  width: 744px;
+}
+
+.college-image .image {
+  height: 342px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 744px;
+}
